@@ -1,6 +1,44 @@
-h1 {
-    color: #460000;
+*{
+    margin: 0;
+    padding: 0;
 }
-.body-1{
-    background-color: #11052c;
+
+
+
+body{
+    background-color: #ffffff;
+    background-image: url('./imgsrc/arcadeMachine.jpg');
+    background-size: conver;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.joystick-container{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 700px;
+    left: 40%;
+}
+
+.joystick-ball{
+    width: 100px;
+    height: 100px;
+    background: #AF2413;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.joystick-stick{
+    background: gray;
+    width: 35px;
+    height: 300px;
+    position:relative;
+    overflow:visible;
+    top: 90%;
+    left: 33%;
 }
