@@ -12,6 +12,23 @@ body{
     height: 100vh;
 }
 
+.screen{
+    width: 1375px;
+    height: 690px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 14.7%;
+    left: 14.2%;
+    clip-path: polygon(4% 0%, 96% 0%, 100% 100%, 0% 100%);
+}
+
+.screen-h1{
+    font-family: 'Common Pixel', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
 .joystick-container{
     width: 200px;
     height: 200px;
