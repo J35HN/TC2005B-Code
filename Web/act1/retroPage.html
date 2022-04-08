@@ -14,7 +14,42 @@
 <body>
     
     <div class="screen">
-        <h1 class="screen-h1">Top 3 Retro Games</h1>
+        <h1 class="screen-h1">3 Great Retro Games</h1>
+        <table class = "table-screen">
+            <col style = "width: 0%";>
+            <col style = "width: 10%";>
+            <col style = "width: 0%";>
+            <thead>
+                <tr>
+                    <th>
+                        <button type = "button" class="btn btn-outline-danger btn-lg" onclick="mario_link()">
+                            ??????????
+                        </button>
+                    </th>
+                    <th>
+                        <button type = "button" class="btn btn-outline-info btn-lg" onclick="tetris_link()">
+                            ??????????
+                        </button>
+                    </th>
+                    <th>
+                        <button type = "button" class="btn btn-outline-warning btn-lg" onclick="pacman_link()">
+                            ??????????
+                        </button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <img src="./imgsrc/mario.gif" width="100px">
+                    </th>
+                    <th>
+                        <img src="./imgsrc/tetris.gif" width="300px">
+                    </th>
+                    <th>
+                        <img src="./imgsrc/pacman.gif" width="100px">
+                    </th>
+                </tr>
+            </thead>
+        </table>
     </div>
     <div class="joystick-container">
         <div class="joystick-ball">
@@ -41,7 +76,15 @@
                 joystick_ball[i].style.transform = "translate(-"+x+", -"+y+")";
             }
         }
-        
+        function mario_link(){
+            window.open("https://mario.nintendo.com/history/", "_blank");
+        }
+        function tetris_link(){
+            window.open("https://tetris.com/", "_blank");
+        }
+        function pacman_link(){
+            window.open("https://pacman.com/en/", "_blank");
+        }
     </script>
 </body>
 
