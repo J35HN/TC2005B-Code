@@ -37,6 +37,14 @@ body{
     margin-top: 5%;
 }
 
+.screen-h2{
+    font-family: 'Common Pixel', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0%;
+}
+
 .joystick-container{
     width: 200px;
     height: 200px;
